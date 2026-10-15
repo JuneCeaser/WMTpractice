@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api/items"; // TODO: change after deploying backend
+const API = "https://backend-sigma-one-26.vercel.app/api/items"; // TODO: change after deploying backend
 
 export default function App() {
   const [items, setItems] = useState([]);
